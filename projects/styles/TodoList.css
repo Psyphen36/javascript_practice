@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.todo-grid-cont {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+}
+.js-delete-btn, .addList {
+    background-color: red;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.js-delete-btn:hover {
+    background-color: rgb(139, 4, 4);
+}
+.addList:hover {
+    background-color: rgb(5, 88, 5);
+}
+
+.js-inp-todo {
+    font-size: 15px;
+    padding: 10px;
+}
+.js-date {
+    margin-right: 10px;
+    padding: 10px;
+}
+.addList {
+    background-color: green;
+}
+.js-list-cont {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Practice</title>
+    <link rel="stylesheet" href="styles/DOM.css">
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <span>Youtube Subscribe Button.</span>
+            <div class="youtube-button">
+                <button onclick="subBtn();" class="js-subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+
+
+        <div class="middle">
+            <div>
+                <span>Amazon Shipping Calculator</span>
+                <span>Orders under $40 = +$10 shipping.</span>
+                <span>Orders over $40 = FREE shipping.</span>
+            </div>
+            <div>
+                <input type="text" placeholder="Cost of order" class="js-input-val" size="24" onkeyup="
+                    handleCostEvent(event);
+                ">
+                <button class="middle-button" onclick="CalculateTotal();">Calculate</button>
+            </div>
+
+            <div class="js-display-output">
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <span>Rock Paper Scissors</span>
+            <a href="http://127.0.0.1:5500/projects/r_p_s_game.html">Click here</a>
+        </div>
+
+        <script src="scripts/DOM.js"></script>
+    </main>
+</body>
+
+</html>

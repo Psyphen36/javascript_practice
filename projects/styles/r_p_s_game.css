@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+main h1 {
+    font-size: 45px;
+}
+main button {
+    width: 180px;
+    height: 180px;
+    margin: 2px 15px 60px 10px;
+    padding: 30px;
+    font-size: 60px;
+    border: 4px solid white;
+    border-radius: 180px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+main button:hover {
+    cursor: grab;
+    background-color: rgb(14, 14, 14);
+}
+h3 {
+    margin-left: 10px;
+    font-size: 30px;
+}
+footer button {
+    padding: 10px 25px;
+    margin-left: 20px;
+    border: none;
+    color: rgb(20, 20, 20);
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: white;
+}
+footer button:hover {
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);
+}
+
+.js-title {
+    display: block;
+}
+.js-title,
+.js-picks {
+    margin: 20px 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.js-reset-permission-container {
+    margin: 20px 10px;
+    font-size: 30px;
+    font-weight: 500;
+
+}

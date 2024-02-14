@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/calculator.css">
+</head>
+
+<body>
+    <main>
+        <div class="display-cal"></div>
+        <div class="btn-cont1">
+            <button class="one" onclick="
+                calculation += first;">1</button>
+
+            <button class="two" onclick="
+                calculation += second;">2</button>
+
+            <button class="three" onclick="
+                calculation += third;">3</button>
+
+            <button class="add" onclick="
+                calculation += plus;">+</button>
+        </div>
+
+        <div class="btn-cont2">
+            <button class="fourth" onclick="
+                calculation += third;">4</button>
+
+            <button class="fifth" onclick="
+                calculation += third;">5</button>
+
+            <button class="sixth" onclick="
+                calculation += third;">6</button>
+
+            <button class="add" onclick="
+                calculation += plus;">-</button>
+
+        </div>
+        <div class="btn-cont3">
+
+            <button class="seventh" onclick="
+                calculation += third;">7</button>
+
+            <button class="eighth" onclick="
+                calculation += third;">8</button>
+
+            <button class="ninth" onclick="
+                calculation += third;">9</button>
+
+            <button class="add" onclick="
+                calculation += plus;">*</button>
+        </div>
+
+        <div class="btn-cont4">
+            <button class="zeroeth" onclick="
+                calculation += third;">0</button>
+
+            <button class="deci" onclick="
+                calculation += plus;">.</button>
+
+            <button class="total" onclick="
+                calculation = 0;
+        ">=</button>
+
+            <button class="add" onclick="
+                calculation += plus;">/</button>
+        </div>
+            <button class="clear" onclick="
+                calculation += plus;">clear</button>
+
+        <script src="calculator.js"></script>
+    </main>
+</body>
+
+</html>

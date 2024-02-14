@@ -1,0 +1,28 @@
+main button {
+    height: 80px;
+    width: 80px;
+    font-weight: 20;
+    font-size: 25px;
+    background-color: lightslategray;
+    border: none;
+    border-radius: 100%;
+
+}
+.display-cal {
+    margin: 120px 0px;
+}
+.add {
+    background-color: rgb(61, 221, 88);
+}
+.total {
+    background-color: rgb(255, 196, 0);
+}
+main button:hover {
+    background-color: rgb(87, 98, 109);
+}
+.add:hover {
+    background-color: rgb(43, 155, 58);
+}
+.total:hover {
+    background-color: goldenrod;
+}
